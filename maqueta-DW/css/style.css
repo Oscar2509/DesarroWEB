@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    max-width: 1140px;
+    background-color: #ffffff;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+ h1{
+     font-size: 30px;
+     margin: 0;
+ }
+ header, nav{
+     float: left;
+     width: 100%;
+     background-color: #dddddd;
+     text-align: center;
+     padding: 15px 15px;
+     margin-bottom: 20px;
+ }
+
+ .seccion01, .seccion02, footer{
+    float: left;
+    width: 100%;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 30px 10px;
+    margin-bottom: 20px;
+ }
+
+ .seccion01 .contenido, .seccion02 .contenido{
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.seccion01 .contenido .arriba, .seccion01 .contenido .abajo, .seccion01 .contenido .arriba .card, .seccion02 .contenido .izquierda .card{
+    width: 100%;
+    float: left;
+    padding: 0px 10px;
+}
+
+.seccion01 .contenido .abajo .card, .seccion02 .contenido .izquierda, .seccion02 .contenido .derecha, .seccion02 .contenido .derecha .card{
+    float: left;
+    width: 50%;
+    padding: 0px 10px;
+}
+
+.seccion01 .contenido .arriba .card .box{
+    background-color: gray;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+}
+
+.seccion01 .contenido .abajo .card .box{
+    background-color: gray;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 30px 15px;
+    margin-bottom: 20px;
+}
+
+.seccion02 .contenido .izquierda .card .box, .seccion02 .contenido .derecha .card .box{
+    background-color: gray;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 30px 15px;
+    margin-bottom: 20px;  
+}
+
+.clear{
+    clear: both;
+}
